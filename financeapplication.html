@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrio Motors Finance Application</title>
+    <link rel="stylesheet" href="CSS/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/financeapplication.css">
+    <script src="JS/jquery-3.6.4.min.js"></script>
+    <script src="JS/js/bootstrap.min.js"></script>
+    <script src="JS/financeapplication.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div  id="navbarwhole" class="container-fluid">
+                <a id="navbarbrand" class="navbar-brand" href="#"><img id="navbarimg" src="CSS/Images/CM Logo without bg img.png" alt="" srcset="" usemap="#logomap"></a>
+                <map name="#logomap">
+                  <area shape="rect" coords="1,0,498,499" alt="Logo" href="carriomotorswebsite.html">
+                </map>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="carriomotorswebsite.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="vehicles.html">Vehicles</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Finance
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="financepage.html">Finance Introduction</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="financeapplication.html">Finance Application</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="warrantypage.html">Warranty</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="contactus.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+                    </li>
+                  </ul>
+                  <form id="searchbox" class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+
+
+        
+
+
+
+
+        <div id="header">
+          <img id="headerimg" src="CSS/Images/Carrio motors finance application 2 final.jpg" alt="">
+          <h1 id="headerheading">Carrio Motors Finance Application</h1>
+        </div>
+
+
+
+
+<!-- Form Starts -->
+
+
+      <div id="formoutside">
+
+
+
+
+
+
+
+
+      <div id="formdesign">
+        <div class="row">
+            <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                <form action="#">
+                    <h2 id="formheadings">Personal Information</h2>
+                    <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                    
+                    <label for="flname">Full Name</label>
+                    <input type="text" id="flname" name="fullname" placeholder="Your Full Name">
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                    
+                    <label for="fthname">Father's Name</label>
+                    <input type="text" id="fthname" name="fathername" placeholder="Your Father's Name">
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                            
+                    <label for="cnic">CNIC</label>
+                    <input type="number" id="cnic" name="cnic number" placeholder="Your CNIC Number">
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                            
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="birthdate" name="dateofbirth" placeholder="Your Date of Birth">
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                    
+                    
+                    <label for="gender">Male</label>
+                    <input type="radio" id="gendermale" name="male" placeholder="Your Gender" class="radiobtn">
+                    
+                    <label for="gender">Female</label>
+                    <input type="radio" id="genderfemale" name="female" placeholder="Your Gender" class="radiobtn">
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                            
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="emailaddress" placeholder="Your Email Address">
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                            
+                    <label for="phonenumber">Phone number</label>
+                    <input type="number" id="phoneno." name="phonenumber" placeholder="Your Phone Number">
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                            
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" placeholder="Your Address">
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                            
+                    <label for="province">Province</label>
+                    <select name="province" id="province1">
+                        <option value="sindh">Sindh</option>
+                        <option value="punjab">Punjab</option>
+                        <option value="balochistan">Balochistan</option>
+                        <option value="kpk">Khyber Pakhtunkhuwa</option>
+                    </select>
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                            
+                    <label for="city">City</label>
+                    <select name="city" id="city1">
+                        <option value="karachi">Karachi</option>
+                        <option value="hyderabad">Hyderabad</option>
+                        <option value="sukkur">Sukkur</option>
+                        <option value="mirpurkhas">Mirpur Khas</option>
+                        <option value="nawabshah">Nawabshah</option>
+                    </select>
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                            
+                    <label for="zipcode">Zip Code</label>
+                    <input type="number" id="zipcode" name="zipcode" placeholder="Your Zip Code">
+                    </div>
+                    </div>
+
+                    <div id="formlinebreak"></div>
+                    
+                    
+                    <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                            <form action="#">
+                              <h2 id="formheadings">Employment Information</h2>
+                                <div class="row">
+                            <div class="col-12 .col-sm-12 .col-md-12 .col-lg-12 .col-xl-12">
+                             <input type="radio" name="demo" value="One" class="radiobtn"/>Job
+                          <input type="radio" name="demo" value="Two" class="radiobtn"/>Business 
+                           <div id="showOne" class="myDiv">
+	                     <form id="MyForm" action="" method="post">
+                        <div class="row">
+                          <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                      
+                      <label for="cemployer">Current Employer</label>
+                      <input type="text" id="cemployer" name="cemployer" placeholder="Your Current Employment">
+                      </div>
+                      </div>
+                      
+                      <div class="row">
+                          <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                      
+                      <label for="occp/posi">Occupation/Position</label>
+                      <input type="text" id="occp/posi" name="occp/posi" placeholder="Your Occupation/Position">
+                      </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                    
+                    <label for="empladdress">Employer's Address</label>
+                    <input type="text" id="empladdress" name="empladdress" placeholder="Your Employer's Address">
+                    </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                          
+                  <label for="province">Province</label>
+                  <select name="province" id="province2">
+                      <option value="sindh">Sindh</option>
+                      <option value="punjab">Punjab</option>
+                      <option value="balochistan">Balochistan</option>
+                      <option value="kpk">Khyber Pakhtunkhuwa</option>
+                  </select>
+                  </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                        
+                <label for="city">City</label>
+                <select name="city" id="city2">
+                    <option value="karachi">Karachi</option>
+                    <option value="hyderabad">Hyderabad</option>
+                    <option value="sukkur">Sukkur</option>
+                    <option value="mirpurkhas">Mirpur Khas</option>
+                    <option value="nawabshah">Nawabshah</option>
+                </select>
+                </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                      
+              <label for="phonenumber">Employer's Phone Number</label>
+              <input type="number" id="phoneno." name="phonenumber" placeholder="Your Employer's Phone Number">
+              </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+            
+            <label for="yearsemployed">Years Employed</label>
+            <input type="text" id="yearsemployed" name="yearsemployed" placeholder="Number + Years/Months">
+            </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+          
+          <label for="mlyincome">Monthly Income (Without Taxes)</label>
+          <input type="text" id="mlyincome" name="mlyincome" placeholder="Your Monthly Income">
+          </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+        
+        <label for="osfi">Other Sources of Income (If Applicable)</label>
+        <input type="text" id="osfi" name="osfi" placeholder="Other Sources of Income (If Applicable)">
+        </div>
+        </div>
+                      
+	                           </form>
+                             </div>
+
+
+                            <div id="showTwo" class="myDiv">
+	                            <form id="MyForm" action="" method="post">
+                                <div class="row">
+                                  <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                              
+                              <label for="binf">Business Information</label>
+                              <input type="text" id="binf" name="binf" placeholder="Your Business Information">
+                              </div>
+                              </div>
+                              
+                              <div class="row">
+                                  <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                              
+                              <label for="bname">Business Name</label>
+                              <input type="text" id="bname" name="bname" placeholder="Your Business Name">
+                              </div>
+                              </div>
+        
+                              <div class="row">
+                                <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                            
+                            <label for="btype">Business Type</label>
+                            <input type="text" id="btype" name="btype" placeholder="Your Business Type">
+                            </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                          
+                          <label for="baddress">Business Address</label>
+                          <input type="text" id="baddress" name="baddress" placeholder="Your Business Address">
+                          </div>
+                          </div>
+        
+                            <div class="row">
+                              <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                  
+                          <label for="province">Province</label>
+                          <select name="province" id="province3">
+                              <option value="sindh">Sindh</option>
+                              <option value="punjab">Punjab</option>
+                              <option value="balochistan">Balochistan</option>
+                              <option value="kpk">Khyber Pakhtunkhuwa</option>
+                          </select>
+                          </div>
+                          </div>
+        
+                          <div class="row">
+                            <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                
+                        <label for="city">City</label>
+                        <select name="city" id="city3">
+                            <option value="karachi">Karachi</option>
+                            <option value="hyderabad">Hyderabad</option>
+                            <option value="sukkur">Sukkur</option>
+                            <option value="mirpurkhas">Mirpur Khas</option>
+                            <option value="nawabshah">Nawabshah</option>
+                        </select>
+                        </div>
+                        </div>
+        
+                        <div class="row">
+                          <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                              
+                      <label for="phonenumber">Business Phone Number</label>
+                      <input type="number" id="phoneno." name="phonenumber" placeholder="Your Business Phone Number">
+                      </div>
+                      </div>
+        
+                      <div class="row">
+                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                    
+                    <label for="yearsinbusiness">Years in Business</label>
+                    <input type="text" id="yearsinbusiness" name="yearsinbusiness" placeholder="Number + Years/Months">
+                    </div>
+                    </div>
+        
+                    <div class="row">
+                      <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                  
+                  <label for="mlyincome">Average Monthly Income (Without Taxes)</label>
+                  <input type="text" id="mlyincome" name="mlyincome" placeholder="Average Monthly Income">
+                  </div>
+                  </div>
+        
+                  <div class="row">
+                    <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                
+                <label for="osfi">Other Sources of Income (If Applicable)</label>
+                <input type="text" id="osfi" name="osfi" placeholder="Other Sources of Income">
+                </div>
+                </div>
+
+                
+	                                        </form>
+                                       </div>
+
+
+                                    </form>
+                                 </div>
+                              </div>
+
+                              
+
+
+
+
+                          <div class="row">
+                            <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                <form action="#">
+                                  <div id="formlinebreak"></div>
+                                    <h2 id="formheadings">Financial Information</h2>
+                                    <div class="row">
+                                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                    
+                                    <label for="bname">Bank Name</label>
+                                    <input type="text" id="bname" name="bname" placeholder="Your Bank Name">
+                                    </div>
+                                    </div>
+
+
+                                    <div class="row" >
+                                      <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                  
+                                  <label for="acctype">Account Type</label><br>    
+
+                                  <div class="row">
+                                    <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                  
+                                  <label for="acctype" >Current Account</label>
+                                  <input type="radio" id="caccount" name="caccount" placeholder="Your Account Type" class="radiobtn">
+                                  
+                                  <label for="acctype">Savings Account</label>
+                                  <input type="radio" id="saccount" name="saccount" placeholder="Your Account Type" class="radiobtn">
+
+                                </div>
+                              </div>
+                                  
+                                  </div>
+                                  </div>
+
+                                  <div class="row">
+                                    <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                        
+                                <label for="accno.">Account Number</label>
+                                <input type="number" id="accno." name="accno." placeholder="Your Account Number">
+                                </div>
+                                </div>
+
+                                <div class="row">
+                                  <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                      
+                              <label for="bbaddress">Bank Branch Address</label>
+                              <input type="text" id="bbaddress" name="bbaddress" placeholder="Your Bank Branch Address">
+                              </div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                    
+                            <label for="province">Province</label>
+                            <select name="province" id="province4">
+                                <option value="sindh">Sindh</option>
+                                <option value="punjab">Punjab</option>
+                                <option value="balochistan">Balochistan</option>
+                                <option value="kpk">Khyber Pakhtunkhuwa</option>
+                            </select>
+                            </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                    
+                            <label for="city">City</label>
+                            <select name="city" id="city4">
+                                <option value="karachi">Karachi</option>
+                                <option value="hyderabad">Hyderabad</option>
+                                <option value="sukkur">Sukkur</option>
+                                <option value="mirpurkhas">Mirpur Khas</option>
+                                <option value="nawabshah">Nawabshah</option>
+                            </select>
+                            </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                  
+                          <label for="zipcode">Zip Code</label>
+                          <input type="number" id="zipcode" name="zipcode" placeholder="Your Zip Code">
+                          </div>
+                          </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                    
+                                    <label for="loaninfo">Loan Information</label>
+                                    <input type="text" id="loaninfo" name="loaninfo" placeholder="Your Loan Information">
+                                    </div>
+                                    </div>
+
+                                    <div class="row">
+                                      <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                  
+                                  <label for="dsloanamnount">Desired Loan Amount</label>
+                                  <input type="text" id="dsloanamnount" name="dsloanamnount" placeholder="Your Desired Loan Amount">
+                                  </div>
+                                  </div>
+
+
+                                  <div class="row">
+                                    <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                
+                                <label for="plterm">Prefered Loan Term (In Months)</label>
+                                <input type="text" id="plterm" name="plterm" placeholder="Number + Months">
+                                </div>
+                                </div>
+
+                                <div class="row">
+                                  <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                              
+                              <label for="dpamount">Down Payment Amount</label>
+                              <input type="text" id="dpamount" name="dpamount" placeholder="Your Down Payment Amount">
+                              </div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                            
+                            <label for="tivd">Trade-In Vehicle Details (If Applicable)</label><br>
+                            <label for="tivd">Name</label>
+                            <input type="text" id="tivd" name="tivd" placeholder="Name of the Vehicle"><br>
+                            <label for="tivd">Make</label>
+                            <input type="text" id="tivd" name="tivd" placeholder="Make of the Vehicle"><br>
+                            <label for="tivd">Model</label>
+                            <input type="text" id="tivd" name="tivd" placeholder="Model of the Vehicle"><br>
+                            <label for="tivd">Year</label>
+                            <input type="text" id="tivd" name="tivd" placeholder="Year of the Vehicle"><br>
+                            <label for="tivd">Vehicle Registration Number</label>
+                            <input type="text" id="tivd" name="tivd" placeholder="Registration Number"><br>
+                            <label for="tivd">Current Market Value</label>
+                            <input type="text" id="tivd" name="tivd" placeholder="Current Market Value"><br>
+                            </div>
+                            </div>
+                                    
+
+                                    </form>
+                                  </div>
+                                </div>
+
+
+                                <div id="formlinebreak"></div>
+
+
+                                <div class="row">
+                                  <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                      <form action="#">
+                                          <h2 id="formheadings">Declaration</h2>
+                                          <div class="row">
+                                              <div class="col-12 .col-sm-12 	.col-md-12 	.col-lg-12 	.col-xl-12">
+                                          <p id="decpara">I hereby declare that the information provided above is true, complete, and accurate to the best of my knowledge. I understand that any false statements or omissions may result in the rejection of my finance application.<br>
+                                          By clicking the "<strong id="strongwords">Submit</strong>" button below, <strong id="strongwords">I confirm my agreement with the above declaration</strong> and <strong id="strongwords">authorize the verification of the information provided</strong>. 
+                                          </p>
+                                          </div>
+                                          </div>
+      
+                                          
+                                          
+      
+                                          </form>
+                                        </div>
+                                      </div>
+
+                          <div id="submitbtn">
+                          <input type="submit" value="Submit">
+                          </div>
+
+
+                          </form>
+                       </div>
+                   </div>
+                 </div>
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+                <!-- Form Ends -->
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+               </div>
+               
+
+
+
+
+
+
+           </div>
+
+
+
+<!-- Footer Starts Here  -->
+
+                <!-- Footer -->
+                <footer class="text-center text-lg-start text-muted" id="footerbg">
+                  <!-- Section: Social media -->
+                  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <!-- Left -->
+                    <div class="me-5 d-none d-lg-block" id="socialftrline">
+                      <span id="socialftr">Get connected with us on social networks:</span>
+                    </div>
+                    <!-- Left -->
+                
+                    <!-- Right -->
+                    <div>
+                        <img id="fbftr" src="CSS/Images/icons8-facebook-48 (1).png" alt="">
+                        <img id="tweetftr" src="CSS/Images/icons8-twitter-48 (1).png" alt="">
+                        <img id="instaftr" src="CSS/Images/icons8-instagram-48 (1).png" alt="">
+                        <img id="lnkdinftr" src="CSS/Images/icons8-linkedin-48 (1).png" alt="">
+                    </div>
+                    <!-- Right -->
+                  </section>
+                  <!-- Section: Social media -->
+                
+                  <!-- Section: Links  -->
+                  <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                      <!-- Grid row -->
+                      <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                          <!-- Content -->
+                          <h4 class="text fw-bold mb-4" id="brandftrcm">
+                            <i class="fas fa-gem me-3" ></i>Carrio Motors
+                          </h4>
+                          <p id="brandftrpara">
+                            Carrio Motors is one of the fastest growing Dealerships. We focus on delivering high Customer Satisfaction Standards. All employees are committed to provide service with Discipline, Focus and Speed, by following all Standard Operating Processes defined by our company.
+                          </p>
+                        </div>
+                        <!-- Grid column -->
+                
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                          <!-- Links -->
+                          <h6 class="text fw-bold mb-4" id="brandftrh">
+                            <a id="brandftr" href="carriomotorswebsite.html">Home</a>
+                          </h6>
+                          <h6 class="text fw-bold mb-4" id="brandftrv">
+                            <a id="brandftr" href="vehicles.html">Vehicles</a>
+                          </h6>
+                          <h6 class="text fw-bold mb-4" id="brandftrf">
+                            <a id="brandftr" href="financepage.html">Finance</a>
+                          </h6>
+                          
+                        </div>
+                        <!-- Grid column -->
+                
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                          <!-- Links -->
+                          <!-- Links -->
+                          <h6 class="text fw-bold mb-4" id="brandftrw">
+                            <a id="brandftr" href="warrantypage.html">Warranty</a>
+                          </h6>
+                          <h6 class="text fw-bold mb-4" id="brandftrc">
+                            <a id="brandftr" href="contactus.html">Contact Us</a>
+                          </h6>
+                          <h6 class="text fw-bold mb-4" id="brandftra">
+                            <a id="brandftr" href="aboutus.html">About Us</a>
+                          </h6>
+                          
+                        </div>
+                        <!-- Grid column -->
+                
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                          <!-- Links -->
+                          <h6 class="text-uppercase fw-bold mb-4" id="brandftr">Contact Us</h6>
+                          <p id="brandftrcntus"><i class="fas fa-home me-3" ></i>123 Street, ABC Block, Area, City, Country</p>
+                          <p id="brandftrcntus">
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                          </p>
+                          <p id="brandftrcntus"><i class="fas fa-phone me-3"></i>01234567890</p>
+                        </div>
+                        <!-- Grid column -->
+                      </div>
+                      <!-- Grid row -->
+                    </div>
+                  </section>
+                  <!-- Section: Links  -->
+                
+                  <!-- Copyright -->
+                  <!-- <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2021 Copyright:
+                    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                  </div> -->
+                  <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+                
+                <!-- Footer Ends Here  -->
+
+
+
+
+
+
+
+        </div>
+</body>
+</html>

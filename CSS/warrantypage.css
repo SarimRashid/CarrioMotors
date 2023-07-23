@@ -1,0 +1,287 @@
+
+/* Navbar Ends Here */
+
+body{
+    overflow-x: hidden;
+    background-color: white;
+}
+.container-fluid{
+    padding: 0px;
+}
+#navbarwhole{
+    background-image: url(Images/navbarbgimg\ red\ white\ more\ bright.jpg);
+    margin: -8px 0px;
+    background-size: 1213px;
+}
+#navbarwholedrd{
+    background-color: darkblue;
+}
+#navbarwhole li a{
+    color:black;
+}
+#navbarwhole li a:hover{
+    color: #2d1080;
+}
+#navbarbrand{
+    width: 57px;
+    height: 57px;
+    margin: 6px 20px;
+    padding: 7px 4px;
+}
+#navbarimg{
+    width: 60px;
+    height: 60px;
+    padding: 0px 0px;
+    margin: -7px 0px;
+} 
+#searchbox{
+    margin: 0px 16px
+}
+.nav-item{
+    padding: 0px 23px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+/* Navbar Ends Here */
+#header{
+    padding: 0px 0px;
+}  
+#headerimg{
+    width: 100%;
+    height: 321px;
+}
+#headerheading{
+    margin: -15% 22%;
+    font-family: monospace;
+    font-weight: 600;
+    color: black;
+}
+#headerbrandssheet{
+    padding: 0px 0px;
+    margin: 455px 0px;
+    margin-bottom: 110px;
+    margin-top: 1070px;
+}  
+#headerbrandssheetimg{
+    width: 100%;
+    
+}
+#warrantypgdetails{
+    height: 355px;
+    padding: 26px 0px;
+}
+#warrantyheading{
+    margin-bottom: 33px;
+    padding: 0% 36%;
+    font-family: monospace;
+    margin-top: 364px;
+    color: red;
+}
+#warrantypara{
+    margin-bottom: -112px;
+    padding: 3% 8%;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+/* BMW Warranty Scheme Starts */
+
+#brandwarranty1{
+    margin: 0px 0px;
+}
+#header1{
+    padding: 0px 0px;
+}  
+#headerimg1{
+    width: 100%;
+    height: 321px;
+}
+#headerheading1{
+    font-family: monospace;
+    font-weight: 600;
+}
+#warrantypgdetails1{
+    height: 355px;
+    padding: 26px 0px;
+}
+#warrantyheading1{
+    margin-bottom: 33px;
+    padding: 0% 36%;
+    font-family: monospace;
+    margin-top: 364px;
+}
+#warrantypara1{
+    margin-bottom: -112px;
+    padding: 3% 9%;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+/* BMW Warranty Scheme Ends */
+
+
+/* Jeep Warranty Scheme Starts */
+
+#brandwarranty2{
+    margin: 429px 0px;
+}
+#header2{
+    padding: 0px 0px;
+}  
+#headerimg2{
+    width: 100%;
+    height: 321px;
+}
+#headerheading2{
+    font-family: monospace;
+    font-weight: 600;
+}
+#warrantypgdetails2{
+    height: 355px;
+    padding: 26px 0px;
+}
+#warrantyheading2{
+    margin-bottom: 33px;
+    padding: 0% 36%;
+    font-family: monospace;
+    margin-top: 364px;
+}
+#warrantypara2{
+    margin-bottom: -112px;
+    padding: 3% 9%;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+/* Jeep Warranty Scheme Ends */
+
+.bmwwarrantyheading{
+    margin: -15% 31%;
+  color: white;
+}
+.jeepwarrantyheading{
+    margin: -15% 30%;
+    color: black;
+}
+.audiwarrantyheading{
+    margin: -15% 30%;
+    color: white;
+}
+.kiawarrantyheading{
+    margin: -15% 31%;
+    color: black;
+}
+.hyundaiwarrantyheading{
+    margin: -15% 28%;
+    color: white;
+}
+.benzwarrantyheading{
+    margin: -15% 22%;
+    color: white;
+}
+.suzukiwarrantyheading{
+    margin: -15% 29%;
+    color: white;
+}
+.mclarenwarrantyheading{
+    margin: -15% 28%;
+    color: black;
+}
+.mgwarrantyheading{
+    margin: -15% 32%;
+    color: white;
+}
+#strongwords{
+    color: red;
+}
+/* Footer CSS starts here */
+#fbftr{
+    margin: 0px 28px;
+    width: 45px;
+    height: 45px;
+}
+
+#tweetftr{
+    margin: 0px 0px;
+    width: 45px;
+    height: 45px;
+}
+#instaftr{
+    margin: 0px 25px;
+    width: 45px;
+    height: 45px;
+}
+#lnkdinftr{
+    margin: 0px 0px;
+    width: 45px;
+    height: 45px;
+}
+#socialftr{
+    color:black;
+    font-family: monospace;
+}
+#brandftr{
+    color:black;
+    text-decoration: none;
+}
+#brandftrh{
+margin: 0px 45px;
+}
+#brandftrh a:hover{
+    color:white;
+}
+#brandftrv{
+    margin: 65px 45px;
+}
+#brandftrv a:hover{
+    color: white;
+}
+#brandftrf{
+    margin: 65px 45px;
+}
+#brandftrf a:hover{
+    color:white;
+}
+#brandftrw{
+margin: 0px 25px;
+}
+#brandftrw a:hover{
+    color: white;
+}
+#brandftrc{
+    margin: 65px 25px;
+}
+#brandftrc a:hover{
+    color: white;
+}
+#brandftra{
+    margin: 65px 25px;
+}
+#brandftra a:hover{
+    color: white;
+}
+#brandftrcm{
+    margin: -8px -79px;
+    color: red;
+    font-family: monospace;
+}
+#brandftrpara{
+    font-family: monospace;
+    color: black;
+    font-weight: 600;
+    margin: 0px -62px;
+}
+#brandftrcntus{
+    color:black;
+    font-family: monospace;
+    font-weight: 600;
+}
+#footerbg{
+    background-image: url(Images/navbarbgimg\ red\ white\ more\ bright.jpg);
+    background-size: 1213px;
+}
+#socialftrline{
+    margin-top: 12px;
+}    
+/* Footer CSS Ends here */
