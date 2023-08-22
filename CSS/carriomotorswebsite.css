@@ -7,7 +7,7 @@ body{
 }
 .container-fluid{
     padding: 0px 0px;
-    max-width: 100%;
+    max-width: 100%; 
 }
 #navbarwhole{
     background-image: url(Images/navbarbgimg\ red\ white\ more\ bright.jpg);
