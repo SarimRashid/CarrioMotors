@@ -6,9 +6,8 @@ body{
     background-color: white;
 }
 .container-fluid{
-    padding: 0px;
+    padding: 0px 0px;
     max-width: 100%;
-    overflow-x: hidden ;
 }
 #navbarwhole{
     background-image: url(Images/navbarbgimg\ red\ white\ more\ bright.jpg);
