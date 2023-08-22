@@ -78,6 +78,10 @@ body{
     margin: 88px 0px;
     margin-bottom: 92px;
 }
+#financeappbtncolor{
+    background-color: #de1415;
+    color: white;
+}
 #financeappbtn a:hover{
     color: black;
 }

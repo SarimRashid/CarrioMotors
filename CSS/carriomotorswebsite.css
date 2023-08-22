@@ -7,6 +7,8 @@ body{
 }
 .container-fluid{
     padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden ;
 }
 #navbarwhole{
     background-image: url(Images/navbarbgimg\ red\ white\ more\ bright.jpg);
@@ -23,13 +25,13 @@ body{
     color: #2d1080;
 }
 #navbarbrand{
-    width: 57px;
+    width: 4.7%;
     height: 57px;
     margin: 6px 20px;
     padding: 7px 4px;
 }
 #navbarimg{
-    width: 60px;
+    width: 125%;
     height: 60px;
     padding: 0px 0px;
     margin: -7px 0px;
@@ -42,6 +44,162 @@ body{
     font-family: monospace;
     font-weight: 600;
 }
+
+@media only screen and (min-width:1213px) {
+    .nav-item{
+        padding: 0px 23px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+
+@media only screen and (min-width:1200px) and (max-width:1213px) {
+    .nav-item{
+        padding: 0px 22px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1181px) and (max-width:1200px) {
+    .nav-item{
+        padding: 0px 21px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1170px) and (max-width:1181px) {
+    .nav-item{
+        padding: 0px 20px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1158px) and (max-width:1170px) {
+    .nav-item{
+        padding: 0px 19px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1145px) and (max-width:1158px) {
+    .nav-item{
+        padding: 0px 18px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1133px) and (max-width:1145px) {
+    .nav-item{
+        padding: 0px 17px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1122px) and (max-width:1133px) {
+    .nav-item{
+        padding: 0px 16px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1110px) and (max-width:1122px) {
+    .nav-item{
+        padding: 0px 15px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1097px) and (max-width:1110px) {
+    .nav-item{
+        padding: 0px 14px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1085px) and (max-width:1097px) {
+    .nav-item{
+        padding: 0px 13px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1074px) and (max-width:1085px) {
+    .nav-item{
+        padding: 0px 12px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1062px) and (max-width:1074px) {
+    .nav-item{
+        padding: 0px 11px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1049px) and (max-width:1062px) {
+    .nav-item{
+        padding: 0px 10px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1049px) and (max-width:1062px) {
+    .nav-item{
+        padding: 0px 9px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1037px) and (max-width:1049px) {
+    .nav-item{
+        padding: 0px 8px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1014px) and (max-width:1037px) {
+    .nav-item{
+        padding: 0px 7px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:1001px) and (max-width:1014px) {
+    .nav-item{
+        padding: 0px 6px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1001px) {
+    .nav-item{
+        padding: 0px 5px;
+        font-family: monospace;
+        font-weight: 600;
+    }
+}
+
+
+
 
 /* Navbar Ends Here */
 
@@ -65,37 +223,11 @@ body{
     margin: 0px 0px;
     padding: 2px 4px;
 }
-/* .card-img{
-    margin: 0px 0px;
-    padding: 0px 0px;
-} */
-
 #section2{
     margin: -250px -12px;
     padding: 0px 0px;
 }
-#gwagon{
-    display: inline-block;
-    width: 295px;
-    margin: 170px 53px;
-    border-color: #040404;
-    border-width: 4px;
 
-}
-#gwagon-img{
-    margin: 0px 0px;
-    padding: 0px 0px; 
-}
-#gwagon-title{
-    height: 13px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-}
-#gwagon-text{
-    height: 5px;
-    font-family: monospace;
-    font-size: medium;
-}
 
 /* #headervehicles{
     background-color: #ca1100;
@@ -128,44 +260,11 @@ body{
     padding: 0px 0px;
     margin-bottom: 130px;
 }
-#cardbrand{
-    display: inline-block;
-    width: 295px;
-    margin: 170px 53px;
-    border-width: 4px;
-}
-/* #card-img{
-    margin: 0px 0px;
-    padding: 0px 0px;
-} */
-#cardvehicles{
-    display: inline-block;
-    width: 295px;
-    margin: 170px 53px;
-    border-color: #040404;
-    border-width: 4px;
-
-}
-#cardvehicles-img{
-    margin: 0px 0px;
-    padding: 0px 0px; 
-}
-#cardvehicles-title{
-    height: 13px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-}
-#cardvehicles-text{
-    height: 5px;
-    font-family: monospace;
-    font-size: medium;
-}
 #cardbrands{
     display: inline-block;
-    width: 295px;
+    width: 24%;
     margin: 170px 53px;
-    border-width: 4px;
-
+    border: 0px;
 }
 #cardbrands-img{
     margin: 0px 0px;
@@ -181,21 +280,6 @@ body{
     font-family: monospace;
     font-size: medium;
 }
-#webfooter{
-    margin: 0px 0px;
-    padding: 0px 0px;
-    background-color: #425ae0;
-}
-#webfooterpara{
-    margin: 0px 0px;
-    padding: 0px 0px;
-}
-#webfooterimg{
-    margin: 0px 0px;
-    padding: 0px 0px;
-    height: 170px;
-    width: 170px;
-}
 #headervehicles{
     padding: 0px 0px;
     margin-bottom: 240px;
@@ -210,7 +294,20 @@ body{
     font-family: monospace;
     font-weight: 600;
     color: white;
+    font-size: 2.5rem;
 }
+
+/* @media only screen and (min-width:768px) {
+    #headervehiclesheading{
+        margin: -15% 43%;
+        font-family: monospace;
+        font-weight: 600;
+        color: white;
+        font-size: 2.5rem;
+    }
+} */
+
+
 #headerbrands{
     padding: 0px 0px;
     margin-bottom: 300px;
@@ -347,7 +444,7 @@ body{
 }
 #modalcar{
     display: inline-block;
-    width: 295px;
+    width: 24%;
     margin: 170px 53px;
     border-color: #040404;
     border-width: 4px;
@@ -377,35 +474,12 @@ body{
         color: white;
         font-family: monospace;
         font-weight: 600;
-        width: 73px;
+        width: 29%;
         height: 34px;
 }
 #section2{
     margin: -250px -12px;
     padding: 0px 0px;
-}
-#cardvehicles{
-    display: inline-block;
-    width: 295px;
-    margin: 170px 53px;
-    border-color: #040404;
-    border-width: 4px;
-
-}
-#cardvehicles-img{
-    margin: 0px 0px;
-    padding: 0px 0px; 
-}
-#cardvehicles-title{
-    height: 14px;
-    font-family: monospace;
-    font-size: x-large;
-    font-weight: 600;
-}
-#cardvehicles-text{
-    height: 5px;
-    font-family: monospace;
-    font-size: medium;
 }
 .modal-header{
     background-image: url(Images/modal\ bg\ upper\ part.jpg);
@@ -490,7 +564,7 @@ body{
 }
 #modalcarimg{
     height: 250px;
-    width: 400px;
+    width: 52.6%;
     border: 3px solid white;
     margin-top: -485px;
     margin-left: 357px;
@@ -507,23 +581,23 @@ body{
 /* Footer CSS starts here */
 #fbftr{
     margin: 0px 28px;
-    width: 45px;
+    width: 15%;
     height: 45px;
 }
 
 #tweetftr{
     margin: 0px 0px;
-    width: 45px;
+    width: 15%;
     height: 45px;
 }
 #instaftr{
     margin: 0px 25px;
-    width: 45px;
+    width: 15%;
     height: 45px;
 }
 #lnkdinftr{
     margin: 0px 0px;
-    width: 45px;
+    width: 15%;
     height: 45px;
 }
 #socialftr{
